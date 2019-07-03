@@ -1,0 +1,408 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/font.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+header {
+    background-color: white;
+}
+
+.news {
+    background-color: #f8f8f8;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding-top: 50px;
+}
+
+.article-header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+}
+
+.article-header-text {
+    color: white;
+    width: 500px;
+}
+
+.views {
+    display: inline;
+}
+
+.navbar-nav a:hover {
+    color: green;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px,
+    0 -8px 6px -5px #85c7a4;
+    margin-bottom: 20px;
+    display: inline-table;
+}
+
+.menu li {
+    margin-left: 5px;
+}
+
+.menu li:not(:last-child) {
+    border-bottom: 1px solid darkgray;
+}
+
+.menu a:hover {
+    color: green;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.menu-text a {
+    font-weight: bold;
+    color: black;
+}
+
+.navigation {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.category {
+    font-size: 12px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.article-header-text h1 {
+    width: 500px;
+    margin: auto;
+    font-size: 26px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.description {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.read-more {
+    padding-top: 8%;
+    color: #327a5a;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.icon a {
+    font-size: 50px;
+}
+
+.read-more a {
+    color: #327a5a;
+}
+
+.read-more a:hover {
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: none;
+    color: #327a5a;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+h4 {
+    margin-bottom: 60px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #327a5a;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #8f8f80;
+    text-align: center;
+}
+
+.copyright a {
+    color: #327a5a;
+}
+
+.card-line {
+    width: 50px;
+    height: 2px;
+    background-color: darkgray;
+    margin: auto;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 18px;
+    color: #327a5a;
+    text-align: center;
+}
+
+.nav-pills .nav-link.active {
+    color: green;
+    background-color: white;
+}
+
+.read-more .category {
+    font-size: 10px;
+    border-color: darkgray;
+    color: darkgray;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+}
+
+.read-more-article {
+    text-align: left;
+    font-size: 12px;
+    color: black;
+}
+
+.read-more-article-caption {
+    padding-top: 10px;
+    background-color: #f8f8f8;
+}
+
+.read-more-article img {
+    width: 100%;
+}
+
+img.footer-decoration {
+    width: 100%;
+}
+
+.news img {
+    width: 100%;
+}
+
+.navbar-icons a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .lead {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        font-size: 40px;
+    }
+
+    .article-header-text {
+        font-size: 30px;
+    }
+
+    .article-header-text h1 {
+        font-size: 50px;
+    }
+
+    .article-header-text .category {
+        font-size: 28px;
+        width: 200px;
+    }
+
+    .lead {
+        font-size: 50px;
+        margin: 50px;
+    }
+
+    .clearfix {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .views {
+        font-size: 40px;
+    }
+
+    .view {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    .menu {
+        font-size: 55px;
+    }
+
+    .read-more-article {
+        margin-bottom: 100px;
+
+    }
+
+    .read-more h4 {
+        font-size: 60px;
+    }
+
+    .read-more-article p {
+        font-size: 40px;
+    }
+
+    .read-more-article h3 {
+        font-size: 50px;
+    }
+
+    .read-more-article .category {
+        font-size: 25px;
+    }
+
+    .number {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .navbar-toggler {
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../img/toggler.png);
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo {
+        width: 400px;
+        padding-bottom: 30px;
+    }
+
+    .navigation {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .rss {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .search {
+        width: 80px;
+        height: 50px;
+        fill: #6d6e71;
+    }
+
+    .copyright {
+        font-size: 38px;
+    }
+
+    .card {
+        margin-bottom: 50px;
+    }
+
+    .search-mobile {
+        display: inline;
+        width: 80px;
+        height: 50px;
+        fill: #6d6e71;
+    }
+
+    .search {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navigation {
+        font-size: 11px;
+    }
+
+    .clearfix {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .search-mobile {
+        display:none;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .read-more .category {
+        margin-top: -20px;
+        margin-left: 240px;
+    }
+
+    .search-mobile {
+        display:none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .search-mobile {
+        display:none;
+    }
+}
+
+.navbar-toggler {
+    width: 150px;
+}
+
+.article-header {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        float: none;
+        display: block;
+        overflow: hidden;
+    }
+}
